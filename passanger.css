@@ -5,7 +5,8 @@ body{
     background-size:cover;
     background-image: url("church.jpg");
     color: aliceblue;
-    font-size: 200%;
+    font-size: 300%;
+    background-size: auto;
   
     
 }
