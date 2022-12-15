@@ -1,0 +1,56 @@
+body{
+
+    background-color:none;
+    text-align: center;
+    background-size:cover;
+    background-image: url("church.jpg");
+    color: aliceblue;
+    font-size: 200%;
+  
+    
+}
+
+h1{
+
+margin-top: 10px;
+margin-bottom: 10px;
+
+background-size:0ex
+font; white;
+
+
+}
+
+
+button{
+
+    background: white;
+   font-size: 100%;
+    border-radius: 10px;
+}
+
+#increment-btn{
+
+    background: darkred;
+    padding-bottom: ;
+    color: aliceblue;
+}
+
+#save-btn{
+background: darkgreen;
+color: aliceblue;
+border-radius: 10px;
+
+
+}
+
+#count-el{
+  color: rgb(152, 235, 18);
+  font-size: 150%;
+
+  
+  
+    
+
+    
+}
