@@ -49,9 +49,18 @@ border-radius: 10px;
   color: rgb(152, 235, 18);
   font-size: 150%;
 
-  
-  
-    
 
     
 }
+
+
+
+p {
+    display: table; /* keep the background color wrapped tight */
+    margin: 30px auto 30px auto; /* keep the table centered */
+    padding:4px;font-size:30px;background-color:rgb(18, 225, 240);color:#0e0505;
+    border-radius: 5px;
+}
+
+
+  
