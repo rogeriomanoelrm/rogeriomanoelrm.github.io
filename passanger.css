@@ -19,7 +19,8 @@ img {
     border-color: #f3f70e;
     border: 3px solid rgb(39, 236, 21);
     /* definindo a cor e espessura da borda */
-    animation: pulsar 2s infinite;
+    animation: pulsar 7s infinite;
+    margin-top: 30px;
     /* aplicando a animação pulsar por 2 segundos, repetidamente */
 }
 
