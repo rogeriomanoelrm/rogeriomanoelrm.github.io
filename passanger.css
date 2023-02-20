@@ -11,15 +11,12 @@ body {
 
 }
 
-h1 {
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    background-size: 0ex font;
-    white;
-
-
+img{
+    width: 100px;
+    height: 90px;
+    border-radius: 70%;
+    border-style: groove;
+    border-color: #f3f70e;
 }
 
 
