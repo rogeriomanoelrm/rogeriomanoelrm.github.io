@@ -1,68 +1,77 @@
-body{
+body {
 
-    background-color:none;
+    background-color: none;
     text-align: center;
-    background-size:cover;
+    background-size: cover;
     background-image: url("church.jpg");
     color: aliceblue;
     font-size: 200%;
     background-size: auto;
-  
-    
-}
-
-h1{
-
-margin-top: 10px;
-margin-bottom: 10px;
-
-background-size:0ex
-font; white;
 
 
 }
 
+h1 {
 
-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-size: 0ex font;
+    white;
+
+
+}
+
+
+button {
 
     background: white;
-   font-size: 100%;
+    font-size: 100%;
     border-radius: 10px;
 }
 
-#increment-btn{
+#increment-btn {
 
     background: darkred;
     padding-bottom: ;
     color: aliceblue;
 }
 
-#save-btn{
-background: darkgreen;
-color: aliceblue;
-border-radius: 10px;
+#save-btn {
+    background: darkgreen;
+    color: aliceblue;
+    border-radius: 10px;
 
 
 }
 
-#count-el{
-  color: rgb(152, 235, 18);
-  font-size: 150%;
+#count-el {
+    color: rgb(152, 235, 18);
+    font-size: 150%;
 
 
-    
+
 }
 
 
 
 p {
-    display: table; /* keep the background color wrapped tight */
-    margin: 30px auto 30px auto; /* keep the table centered */
-    padding:4px;font-size:30px;background-color:rgb(18, 225, 240);color:#0e0505;
+    display: table;
+    /* keep the background color wrapped tight */
+    margin: 30px auto 30px auto;
+    /* keep the table centered */
+    padding: 4px;
+    font-size: 50px;
+    background-color: rgb(3, 27, 29);
+    color: #f3f70e;
     border-radius: 5px;
-    animation: pulsing 1s infinite; 
-             transition: width 2s, height 2s, transform 2s;
+    animation: pulsing 1s infinite;
+    transition: width 2s, height 2s, transform 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
 }
+
 
 @keyframes pulsing {
     0% {
@@ -77,10 +86,4 @@ p {
         box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
     }
 
-} 
-
-
-  
-
-
-  
+}
