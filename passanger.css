@@ -60,7 +60,27 @@ p {
     margin: 30px auto 30px auto; /* keep the table centered */
     padding:4px;font-size:30px;background-color:rgb(18, 225, 240);color:#0e0505;
     border-radius: 5px;
+    animation: pulsing 1s infinite; 
+             transition: width 2s, height 2s, transform 2s;
 }
+
+@keyframes pulsing {
+    0% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+    }
+
+    50% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+    }
+
+    100% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+    }
+
+} 
+
+
+  
 
 
   
