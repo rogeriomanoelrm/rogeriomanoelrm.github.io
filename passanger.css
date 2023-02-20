@@ -1,174 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="passanger.css">
+</head>
+
+<body>
+    <div class="back">
+    <div class="mca">
+        MCA
+    </div>
+    <h2 id="count-el">0</h2>
+    <button id="counter-btn" onclick="counter()">COUNTER</button>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="count-el"></p>
+    <div class="total">TOTAL:
+            <p id="save-el"></p>
+    </div>
+</div>
 
 
 
 
-body {
 
-    background-color: none;
-    text-align: center;
-    background-size: cover;
-    background-image: url("church.jpg");
-    color: aliceblue;
-    font-size: 200%;
-    background-size: auto;
+    <script src="passanger.js">
 
 
-}
+    </script>
+</body>
 
-.back{
-    width: 300px;
-    height: 400px;
-    background: linear-gradient(black, aqua);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    border-radius: 10px;
-    border-style: solid;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-color: rgb(227, 228, 224);
-
-}
-
-h1 {
-    width: 100px;
-    height: 90px;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: color-change;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-.mca{
-    width: 150px;
-    height: 80px;
-    background: linear-gradient(black, aqua);
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    animation: pulsing;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    font-size: 150%;
-    justify-content: center;
-    align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-
-@keyframes pulsing {
-    0% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
-    }
-
-    50% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
-    }
-
-    100% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
-    }
-
-}
-
-@keyframes color-change {
-    0% {
-        color: rgb(24, 241, 241);
-    }
-
-    50% {
-        color: rgb(9, 177, 228);
-    }
-
-    100% {
-        color: rgb(15, 214, 214);
-    }
-}
-
-button {
-
-    background: linear-gradient(black, aqua);
-    font-size: 100%;
-    border-radius: 10px;
-    color: whitesmoke;
-}
-
-#increment-btn {
-
-    background: darkred;
-    padding-bottom: ;
-    color: aliceblue;
-}
-
-#save-btn {
-    background: linear-gradient(black, aqua);
-    color: aliceblue;
-    border-radius: 10px;
-
-
-}
-
-#count-el {
-    color: rgb(224, 240, 10);
-    font-size: 160%;
-    animation-name: color-change;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-
-}
-
-@keyframes color-change {
-    0% {
-        color: rgb(54, 2, 2);
-    }
-
-    50% {
-        color: rgb(1, 34, 12);
-    }
-
-    100% {
-        color: rgb(27, 2, 19);
-    }
-}
-
-
-
-p {
-    display: table;
-    /* keep the background color wrapped tight */
-    margin: 30px auto 30px auto;
-    /* keep the table centered */
-    padding: 4px;
-    font-size: 50px;
-    background: linear-gradient(black, aqua);
-    color: #e7e7dd;
-    border-radius: 5px;
-    animation: pulsing 0.1s infinite;
-    transition: width 2s, height 2s, transform 2s;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    font-weight: bold;
-
-}
-
-
-@keyframes pulsing {
-    0% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
-    }
-
-    50% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
-    }
-
-    100% {
-        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
-    }
-
-}
+</html>
