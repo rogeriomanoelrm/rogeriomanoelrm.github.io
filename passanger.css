@@ -130,13 +130,14 @@ p {
     /* keep the table centered */
     padding: 4px;
     font-size: 50px;
-    background-color: rgb(3, 27, 29);
-    color: #f3f70e;
+    background: linear-gradient(black, aqua);
+    color: #e7e7dd;
     border-radius: 5px;
     animation: pulsing 0.1s infinite;
     transition: width 2s, height 2s, transform 2s;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
+    font-weight: bold;
 
 }
 
