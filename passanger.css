@@ -15,6 +15,19 @@ body {
 
 }
 
+.back{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(black, rgb(211, 211, 219));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-top: 20px;
+
+}
+
 h1 {
     width: 100px;
     height: 90px;
