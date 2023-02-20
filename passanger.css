@@ -48,9 +48,24 @@ button {
 #count-el {
     color: rgb(224, 240, 10);
     font-size: 150%;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 
+}
 
+@keyframes color-change {
+    0% {
+        color: rgb(206, 179, 179);
+    }
 
+    50% {
+        color: rgb(14, 236, 62);
+    }
+
+    100% {
+        color: rgb(238, 26, 167);
+    }
 }
 
 
@@ -65,11 +80,11 @@ p {
     background-color: rgb(3, 27, 29);
     color: #f3f70e;
     border-radius: 5px;
-    animation: pulsing 1s infinite;
+    animation: pulsing 0.1s infinite;
     transition: width 2s, height 2s, transform 2s;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
-  
+
 }
 
 
