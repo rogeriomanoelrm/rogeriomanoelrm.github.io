@@ -1,3 +1,7 @@
+
+
+
+
 body {
 
     background-color: none;
@@ -14,11 +18,48 @@ body {
 h1 {
     width: 100px;
     height: 90px;
-    margin-left: 40%;
-    animation-name: color-change;
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: color-change;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+.mca{
+    width: 150px;
+    height: 80px;
+    background: linear-gradient(black, aqua);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    animation: pulsing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+@keyframes pulsing {
+    0% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+    }
+
+    50% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+    }
+
+    100% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+    }
+
 }
 
 @keyframes color-change {
@@ -59,7 +100,7 @@ button {
 
 #count-el {
     color: rgb(224, 240, 10);
-    font-size: 150%;
+    font-size: 160%;
     animation-name: color-change;
     animation-duration: 2s;
     animation-iteration-count: infinite;
