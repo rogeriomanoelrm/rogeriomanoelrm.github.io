@@ -11,14 +11,29 @@ body {
 
 }
 
-img{
+img {
     width: 100px;
     height: 90px;
     border-radius: 70%;
     border-style: groove;
     border-color: #f3f70e;
+    border: 3px solid rgb(39, 236, 21);
+    /* definindo a cor e espessura da borda */
+    animation: pulsar 2s infinite;
+    /* aplicando a animação pulsar por 2 segundos, repetidamente */
 }
 
+@keyframes pulsar {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 button {
 
